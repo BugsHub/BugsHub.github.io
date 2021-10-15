@@ -9,7 +9,29 @@ h6{
 }
 img.first{
   width: 80%;
-}
+ }
+div1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    heigth: 100%;
+    min-width: 1000px;
+    z-index: -10;
+    zoom: 1;
+    background-color: #fff;
+    background: url(http://tool.liumingye.cn/bingimg/img.php);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: :center 0;
+      }
+      .demo1{
+        width: 100%;
+        heigth: 100%;
+        background-color: rgba(255,255,255,0.5);
+      }
 body{
   width:95%;
   margin-left: auto;
@@ -27,10 +49,6 @@ div.player{
   border-style: solid;
   border-color: dimgray;
   border-radius: 5px;
-}
-background-image:url()
-img.first{
-  float: up;
 }
 img.head{
   float: inherit;
