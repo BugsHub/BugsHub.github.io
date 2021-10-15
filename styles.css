@@ -35,3 +35,43 @@ h6{
      align-items: center;
      padding: 0 10px;
  }
+element.style{
+  --box-bgcolor-light:hsl(299.768, 50%, 90%);
+  --box-bgcolor-dark: hsl(299.768, 60%, 20%);
+}
+left-container .flow-reply {
+    flex: 0 0 300px;
+    max-height: 15em;
+    margin-right: -7px;
+    overflow-y: hidden;
+}
+box{
+  background-color:#f7f7f7f7;
+  color:#000
+    boder-radius:5px;
+  margin:1em 0;
+  padding:.5em;
+  box-shadow: 0 2px 5px rgba(0,0,
+}
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    -webkit-overflow-scrolling: touch;
+}
+div {
+    display: block;
+}
+.left-container .flow-item-row {
+    cursor: default;
+}
+body, pre, textarea {
+    font-family: "Segoe UI", 微软雅黑, "Microsoft YaHei", sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
